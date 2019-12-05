@@ -9,6 +9,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar {
     background: #354a5f;
@@ -30,4 +31,87 @@ body {
     cursor: pointer;
     margin-left: 0.5rem!important;
     margin-top: 0.5rem!important;
+}
+
+.tileTop {
+    cursor: pointer;
+    height: 4rem;
+    margin-top: 0.625rem;
+    margin-left: 0.94rem;
+    margin-right: 0.94rem;
+}
+
+.tileTitle {
+    -webkit-line-clamp: 2;
+    max-height: 38px;
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    display: block;
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-align: left;
+    color: #32363a;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.tileSubTitle {
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #6a6d70;
+    cursor: pointer;
+    max-width: 100%;
+    display: inline-block;
+    word-wrap: break-word;
+    line-height: normal;
+    margin-top: 0.5rem;
+}
+
+.tileContent {
+    cursor: pointer;
+    height: 3.875rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    overflow: visible;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tileImage {
+    position: relative;
+    height: 3.875rem;
+    font-size: 2rem;
+    color: #73777b;
+    outline: none;
+}
+
+.tileFooter {
+    text-align: left;
+    cursor: pointer;
+    color: #6a6d70;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 1.1875rem;
+    bottom: 1rem;
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+    line-height: 1.1875rem;
+    font-size: 0.875rem;
 }

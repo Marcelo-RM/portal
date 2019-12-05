@@ -2,49 +2,49 @@
     {
         "header": "Busy Indicator",
         "subHeader": "Loading elements",
-        "icon": "sap-icon://refresh",
+        "icon": "fas fa-spinner",
         "url": "https://marcelo-rm.github.io/busyIndicator",
         "type": "Javascript / Css"
     },
     {
         "header": "Process Flow",
         "subHeader": "manage delivery",
-        "icon": "sap-icon://functional-location",
+        "icon": "fas fa-map-marked-alt",
         "url": "https://marcelo-rm.github.io/process-flow/",
         "type": "Chart.js / Bootstrap"
     },
     {
         "header": "Movies",
         "subHeader": "search movies",
-        "icon": "sap-icon://video",
+        "icon": "fas fa-video",
         "url": "https://marcelo-rm.github.io/movies/webapp",
         "type": "ui5"
     },
     {
         "header": "Gerenciar projetos",
         "subHeader": "",
-        "icon": "sap-icon://collaborate",
+        "icon": "fas fa-project-diagram",
         "url": "https://marcelo-rm.github.io/manageProjects/webapp",
         "type": "ui5"
     },
     {
         "header": "Consultar Cep",
         "subHeader": "Dados sobre um local",
-        "icon": "sap-icon://map-2",
+        "icon": "fas fa-map-marker-alt",
         "url": "https://marcelo-rm.github.io/consultaCep",
         "type": "jquery"
     },
     {
         "header": "Basic Page",
         "subHeader": "site simples de apresentação",
-        "icon": "sap-icon://internet-browser",
+        "icon": "fab fa-internet-explorer",
         "url": "https://marcelo-rm.github.io/siteBootstrap/",
         "type": "bootstrap"
     },
     {
         "header": "Conversor de moedas",
         "subHeader": "",
-        "icon": "sap-icon://collections-insight",
+        "icon": "far fa-money-bill-alt",
         "url": "https://marcelo-rm.github.io/conversor_moeda/",
         "type": "react"
     }
