@@ -17,8 +17,8 @@ body {
     height: 2.75rem;
 } 
 .tile {
-    width: 11rem;
-    height: 11rem;
+    width: 9rem;
+    height: 9rem;
     display: inline-block;
     border-radius: 0.25rem;
     position: relative;
@@ -55,7 +55,7 @@ body {
 
 .tileTop {
     cursor: pointer;
-    height: 4rem;
+    height: 3.5rem;
     margin-top: 0.625rem;
     margin-left: 0.94rem;
     margin-right: 0.94rem;
@@ -111,7 +111,7 @@ body {
 .tileImage {
     position: relative;
     height: 3.875rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #0397af;
     outline: none;
 }
