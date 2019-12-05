@@ -1,0 +1,33 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: #354a5f;
+    height: 2.75rem;
+} 
+.tile {
+    width: 11rem;
+    height: 11rem;
+    display: inline-block;
+    border-radius: 0.25rem;
+    position: relative;
+    outline: none;
+    background-position: 0;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 0.0625rem rgba(0,0,0,0.1), 0 0.125rem 0.5rem 0 rgba(0,0,0,0.1);
+    vertical-align: top;
+    cursor: pointer;
+    cursor: pointer;
+    margin-left: 0.5rem!important;
+    margin-top: 0.5rem!important;
+}
