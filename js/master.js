@@ -20,6 +20,8 @@ window.onload = function (){
 function createTile(app){
     var tile = document.createElement("div");
     tile.className = "tile";
+    tile.setAttribute("data-link", app.url);
+    tile.onclick = tileclick;
 
     //CABECALHO
     var tileTop = document.createElement("div");
@@ -61,6 +63,12 @@ function createTile(app){
     tile.appendChild(tileFooter);
 
     //TODO: Criar container para tiles.
-    var body = document.getElementsByTagName("body")[0];
-    body.appendChild(tile);
+    var container = document.getElementById("containerTiles");
+    container.appendChild(tile);
+}
+
+function tileclick(event){
+    var tile = event.target.offsetParent;
+    var link = tile.getAttribute("data-link");
+    window.open(link);
 }
