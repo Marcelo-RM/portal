@@ -40,12 +40,53 @@ body {
    -moz-user-select: none;
    -ms-user-select: none;
    user-select: none;
+
+   animation-name: unhoverTile;
+    animation-duration: .3s;
+    animation-delay: 0s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .tile:hover {
+    /*
     transform: translateY(-10px) translateX(-10px);
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
     border: 1px solid #ccc;
+    */
+    animation-name: hoverTile;
+    animation-duration: .3s;
+    animation-delay: 0s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverTile {
+    0% {
+        transform: none;
+        box-shadow: 0 0 0 0.0625rem rgba(0,0,0,0.1), 0 0.125rem 0.5rem 0 rgba(0,0,0,0.1);
+        border: 1px solid transparent;
+    }
+    100% {
+        transform: translateY(-10px) translateX(-10px);
+        box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+        border: 1px solid #ccc;
+    }
+}
+
+@keyframes unhoverTile {
+    0% {
+        transform: translateY(-10px) translateX(-10px);
+        box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+        border: 1px solid #ccc;
+    }
+    100% {
+        transform: none;
+        box-shadow: 0 0 0 0.0625rem rgba(0,0,0,0.1), 0 0.125rem 0.5rem 0 rgba(0,0,0,0.1);
+        border: 1px solid transparent;
+    }
 }
 
 .tile:active {
