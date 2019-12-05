@@ -70,5 +70,9 @@ function createTile(app){
 function tileclick(event){
     var tile = event.target.offsetParent;
     var link = tile.getAttribute("data-link");
-    window.open(link);
+
+    if(link){
+        window.open(link);
+    }
+
 }
