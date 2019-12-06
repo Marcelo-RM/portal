@@ -4,9 +4,18 @@ window.onload = function (){
         if(response.status == 200){
             response.json()
             .then(function(apps){
-                apps.forEach(function(app) {
-                    createTile(app);
-                });
+                //apps.forEach(function(app) {
+                //    createTile(app);
+                //});
+
+                //Cria um tempo de aparicao entre uma tile e outra
+                var i = 0;
+                setInterval(function(){
+                    if(apps[i]){
+                        createTile(apps[i]);
+                        i++;
+                    }
+                }, 300);
             });
         } else {
             alert("Ocorreu um erro na leitura do arquivo");
@@ -62,7 +71,7 @@ function createTile(app){
     tile.appendChild(tileContent);
     tile.appendChild(tileFooter);
 
-    //TODO: Criar container para tiles.
+    //Adicionando tile ao container
     var container = document.getElementById("containerTiles");
     container.appendChild(tile);
 }
