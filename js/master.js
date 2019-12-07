@@ -7,7 +7,14 @@ window.onload = function (){
                 //apps.forEach(function(app) {
                 //    createTile(app);
                 //});
-
+                // Ordenando array por tipo de framework
+                apps = apps.sort(function(el1, el2){
+                    if(el1.type.toLowerCase() > el2.type.toLowerCase()){
+                        return 1;
+                    } else {
+                        return -1;
+                    }
+                });
                 //Cria um tempo de aparicao entre uma tile e outra
                 var i = 0;
                 setInterval(function(){
