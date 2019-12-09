@@ -17,10 +17,12 @@ window.onload = function (){
                 });
                 //Cria um tempo de aparicao entre uma tile e outra
                 var i = 0;
-                setInterval(function(){
+                var interval = setInterval(function(){
                     if(apps[i]){
                         createTile(apps[i]);
                         i++;
+                    } else {
+                        clearInterval(interval);
                     }
                 }, 300);
             });
