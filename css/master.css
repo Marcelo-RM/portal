@@ -51,6 +51,7 @@ body {
     display: inline-block;
     margin-right: 20px;
     height: 80%;
+    width: 11rem;
     filter: invert(1);
 }
 
@@ -99,13 +100,13 @@ body {
 
     /*Impedir seleção de texto*/
     -webkit-touch-callout: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
-   animation-name: unhoverTile;
+    animation-name: unhoverTile;
     animation-duration: .3s;
     animation-delay: 0s;
     animation-iteration-count: unset;
