@@ -1,5 +1,12 @@
 [
     {
+        "header": "Collision balls",
+        "subHeader": "",
+        "icon": "fas fa-braille",
+        "url": "https://marcelo-rm.github.io/collision-balls/",
+        "type": "D3.js / Javascript"
+    },
+    {
         "header": "Gráfico média",
         "subHeader": "Exibe gráfico barras",
         "icon": "far fa-chart-bar",
