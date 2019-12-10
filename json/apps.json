@@ -1,5 +1,12 @@
 [
     {
+        "header": "Gráfico média",
+        "subHeader": "Exibe gráfico barras",
+        "icon": "far fa-chart-bar",
+        "url": "https://marcelo-rm.github.io/grafico-media/",
+        "type": "D3.js / Javascript"
+    },
+    {
         "header": "Busy Indicator",
         "subHeader": "Loading elements",
         "icon": "fas fa-spinner",
@@ -9,7 +16,7 @@
     {
         "header": "Process Flow",
         "subHeader": "manage delivery",
-        "icon": "fas fa-map-marked-alt",
+        "icon": "fas fa-shipping-fast",
         "url": "https://marcelo-rm.github.io/process-flow/",
         "type": "Chart.js / Bootstrap"
     },
