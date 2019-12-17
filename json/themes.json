@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Fiori",
+        "primary": "#ffffff",
+        "ascent01": "#0397af",
+        "ascent02": "#354a5f",
+        "secondary": "#f7f7f7"
+    },
+    {
+        "name": "Deep green",
+        "primary": "#b8e1dd",
+        "ascent01": "#3a9188",
+        "ascent02": "#044a42",
+        "secondary": "#062925"
+    },
+    {
+        "name": "Orange blue",
+        "primary": "#e7e6fc",
+        "ascent01": "#dd7c1b",
+        "ascent02": "#2f89fc",
+        "secondary": "#2b007b"
+    },
+    {
+        "name": "Old vintage",
+        "primary": "#fde9c9",
+        "ascent01": "#ea5455",
+        "ascent02": "#2d4059",
+        "secondary": "#343434"
+    }
+]
