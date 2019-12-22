@@ -1,5 +1,12 @@
 [
     {
+        "header": "Gerenciar contas",
+        "subHeader": "",
+        "icon": "fas fa-hand-holding-usd",
+        "url": "https://marcelo-rm.github.io/gerenciar-contas/",
+        "type": "Javascript"
+    },
+    {
         "header": "Collision balls",
         "subHeader": "",
         "icon": "fas fa-braille",
@@ -32,34 +39,34 @@
         "subHeader": "search movies",
         "icon": "fas fa-video",
         "url": "https://marcelo-rm.github.io/movies/webapp",
-        "type": "ui5"
+        "type": "UI5"
     },
     {
         "header": "Gerenciar projetos",
         "subHeader": "",
         "icon": "fas fa-project-diagram",
         "url": "https://marcelo-rm.github.io/manageProjects/webapp",
-        "type": "ui5"
+        "type": "UI5"
     },
     {
         "header": "Consultar Cep",
         "subHeader": "Dados sobre um local",
         "icon": "fas fa-map-marker-alt",
         "url": "https://marcelo-rm.github.io/consultaCep",
-        "type": "jquery"
+        "type": "Jquery"
     },
     {
         "header": "Basic Page",
         "subHeader": "site simples de apresentação",
         "icon": "fab fa-internet-explorer",
         "url": "https://marcelo-rm.github.io/siteBootstrap/",
-        "type": "bootstrap"
+        "type": "Bootstrap"
     },
     {
         "header": "Conversor de moedas",
         "subHeader": "",
         "icon": "far fa-money-bill-alt",
         "url": "https://marcelo-rm.github.io/conversor_moeda/",
-        "type": "react"
+        "type": "React"
     }
 ] 
