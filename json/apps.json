@@ -1,5 +1,12 @@
 [
     {
+        "header": "Dashboard",
+        "subHeader": "",
+        "icon": "fas fa-tachometer-alt",
+        "url": "https://marcelo-rm.github.io/dashboard/",
+        "type":"Javascript / Css"
+    },
+    {
         "header": "site Tokyo Ghoul",
         "subHeader": "",
         "icon": "fas fa-globe-americas",
