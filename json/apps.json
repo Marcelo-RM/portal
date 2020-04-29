@@ -7,13 +7,6 @@
         "type":"Javascript / Css"
     },
     {
-        "header": "site Tokyo Ghoul",
-        "subHeader": "",
-        "icon": "fas fa-globe-americas",
-        "url": "https://marcelo-rm.github.io/tokyo-ghoul",
-        "type":"Javascript / Css"
-    },
-    {
         "header": "Gerenciar contas",
         "subHeader": "",
         "icon": "fas fa-hand-holding-usd",
