@@ -1,5 +1,12 @@
 [
     {
+        "header": "TinDog",
+        "subHeader": "Meet Dogs",
+        "icon": "far fa-heart",
+        "url": "https://marcelo-rm.github.io/TinDog/",
+        "type":"Bootstrap"
+    },
+    {
         "header": "Dashboard",
         "subHeader": "",
         "icon": "fas fa-tachometer-alt",
